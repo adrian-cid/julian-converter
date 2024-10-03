@@ -1,0 +1,42 @@
+{
+    "name": "adrian-cid/julian-converter",
+    "description": "A PHP library for converting dates between the Gregorian calendar and Julian dates, with support for time precision down to seconds. Ideal for date manipulations, calendar conversions, and astronomical calculations.",
+    "homepage": "https://github.com/adrian-cid/julian-converter",
+    "keywords": [
+        "Julian Date",
+        "Date Conversion",
+        "Julian",
+        "Calendar",
+        "Date Calculator",
+        "Gregorian",
+        "Time Conversion",
+        "DateTime",
+        "PHP Date",
+        "Date Manipulation",
+        "Astronomy",
+        "PHP Utilities",
+        "Time Calculations",
+        "Date Algorithms",
+        "Gregorian to Julian",
+        "Calendar Conversion"
+    ],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Adrian Cid Almaguer",
+            "email": "adriancid@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "AdrianCid\\Calendar\\": "src/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/adrian-cid/julian-converter/issues",
+        "source": "https://github.com/adrian-cid/julian-converter"
+    }
+}
